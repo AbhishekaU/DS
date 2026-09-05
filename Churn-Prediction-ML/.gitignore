@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Trained models / artifacts (churn_pipeline.joblib IS tracked - small, lets
+# the app run without retraining first)
+models/*.pkl
+
+# IDE
+.vscode/
+.idea/
